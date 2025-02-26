@@ -2,7 +2,9 @@ import React from 'react'
 
 const NoChat = () => {
   return (
-    <div className='Chat_section'>No Chat</div>
+    <div className='No_Chat_section'>
+      Welcome
+    </div>
   )
 }
 

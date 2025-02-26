@@ -195,7 +195,16 @@ body{
   flex-basis: 60%;
 }
 
-
+.No_Chat_section{
+  /* background-color: #fff; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  font-weight: 600;
+  color: #ffffff;
+}
 
 .sidebar_user_div{
   background-color: transparent;

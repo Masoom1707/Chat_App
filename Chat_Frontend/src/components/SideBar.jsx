@@ -26,7 +26,7 @@ const SideBar = () => {
         {users.map((user) => (
             <button className={`sidebar_user_div ${selectedUser?._id === user._id ? 'bg1' : ''}`} key={user._id} onClick={() => setSelectedUser(user)}>
             <div className='sideBar_User_pic'>
-                <img src={user.profilepic || "./public/images.png"} alt="Profile" />
+                <img src={user.profilepic || "/images.png"} alt="Profile" />
             </div>
             <div className="sidebar-user-info">
                 <p className='name'>{user.fullname}</p>
