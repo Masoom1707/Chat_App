@@ -184,6 +184,11 @@ body{
 
 .Side_bar{
   flex-basis: 35%;
+  height: 92vh;
+  overflow-y: scroll;
+}
+.Side_bar::-webkit-scrollbar{
+  display: none;
 }
 
 .Chat_section{
